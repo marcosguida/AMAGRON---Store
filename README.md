@@ -1,4 +1,5 @@
 # AMAGRON: E-commerce of agricultural products
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
  
 AMAGRON is the project store for the Front-End Development course in the first term of the Information Systems (Sistemas de Informação) course at Unitins (Campus Palmas). Class: 2024.01
 Teacher / lecturer: Tamirys Virgulino
