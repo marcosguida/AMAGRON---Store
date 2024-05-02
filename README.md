@@ -23,7 +23,7 @@ Teacher / lecturer: Tamirys Virgulino
 
 * Accessibility: Implement accessibility features to cater for users with different abilities, ensuring inclusive browsing. 
 
-## Technologies
+## ⚒️ Technologies
 
 ### Front-End
 | Ícon                                                                                                         | Language            | Documentation                            |
