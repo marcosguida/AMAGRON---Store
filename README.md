@@ -23,10 +23,22 @@ Teacher / lecturer: Tamirys Virgulino
 
 * Accessibility: Implement accessibility features to cater for users with different abilities, ensuring inclusive browsing. 
 
+## Technologies
 
 ## Images
 
-
 ## Team
+
+- Marcos Guida: marcosguida@unitins.br
+- Heitor Fiuza: heitorfiuza@unitins.br
+- Arthur Henrique: arthurpestana@unitins.br
+- Bruno Lustosa: brunolustoza@unitins.br
+- Bruno Sales: brunosales@unitins.br
+- Lauro Leão: lauroleao@unitins.br
+
+Observação:
+⚠️
+`` Este projeto está em desenvolvimento e sofre alterações frequentes. ``
+
 
 
