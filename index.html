@@ -3,144 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMAGRON</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Amagron</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/amagron-icon.svg" type="image/x-icon">
 </head>
 <body>
-    <section class="main">
-        <nav>
-
-            <h1>AMAGRON</h1>
-
-            <ul class="nav">
-                <li>
-                    <a href="#produtos">
-                        PRODUTOS
-                    </a>
-                </li>
-
-                <li>NOTÍCIAS</li>
-                
-                <li>
-                    <a href="#comunicação">
-                        CONTATO
-                    </a>
-                </li>
-            </ul>
-
-            <a href="login.html">
-                <button>LOGIN</button>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="nav__logo">
+                <img src="images/amagron-logo.png" alt="Logo Amagron" class="logo_img">
             </a>
-        </nav>
-
-        <div class="letreiro">
-            <h1>A parceira do <br> agricultor</h1>
-
-            <h5>Lorem ipsum dolor sit amet consectetur adipis
-                icing elit. <br> Quidem reprehenderit ipsum molest
-                iae eaque commodi quia autem, at voluptates a
-                 totam dolorem eum esse. <br> Itaque mollitia accu
-                 samus facere commodi adipisci dolor!</h5>
-
-                <a href="#equipe">
-                    <button>QUEM SOMOS</button>
-                </a>
-        </div>
-    </section>
-
-    <section id="produtos">
-        <h1 class="prodh1">Produtos</h1>
-
-        <div class="cards">
-            <div class="card">
-                <img src="./assinaturas2.jpg" alt="">
-
-                <div>
-                    <h1>Título</h1>
-                    <h2>Descrição</h2>
-                    <span>$5.00</span>
-                    <button>COMPRAR</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assinaturas2.jpg" alt="">
-
-                <div>
-                    <h1>Título</h1>
-                    <h2>Descrição</h2>
-                    <span>$5.00</span>
-                    <button>COMPRAR</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="./assinaturas2.jpg" alt="">
-
-                <div>
-                    <h1>Título</h1>
-                    <h2>Descrição</h2>
-                    <span>$5.00</span>
-                    <button>COMPRAR</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        <div class="banner">
-            <img src="./amagron.png" alt="banner">
-        </div>    
-
-    <section id="equipe">
-        
-        <h1>VENHA NOS CONHECER</h1>
-        
-        <div class="container">
-
-            <div class="sobre">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam expedita iure aliquid quasi dolorem vitae voluptas ea! Unde enim voluptates reiciendis error, commodi mollitia quod minus hic delectus odit quaerat.
-            </div>
-    
-            <img src="./fundo-main.jp" alt="dfgfdfbadf">
-
-        </div>
-    
-    </section>
-
-    <section class="prod">
-        <div class="center1">
-            <div class="cont">
-                <h3>FALE COM A GENTE E APROVEITE NOSSAS CONDIÇÕES ESPECIAIS</h3>
-            
-                <a href="#produtos">
-                    <button>PRODUTOS</button>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <footer id="comunicação">
-
-        <div>
-            <div>
-                <img src="" alt="">
-                <h5>d\afsfvv</h5>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <div class="nav__menu">
+                <ul class="menu">
+                    <li class="menu__item"><a href="">Assinaturas</a></li>
+                    <li class="menu__item"><a href="">Produtos</a></li>
+                    <li class="menu__item"><a href="">Contatos</a></li>
+                    <li class="menu__item"><a href="">Notícias</a></li>
                 </ul>
             </div>
-
-            <div>
-
+            <div class="nav__buttons">
+                <a href="pages/login.html" class="button_login">Login</a>
+                <a href="pages/signIn.html" class="button_singIn">Cadastrar</a>
             </div>
-            <div>
-
-
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__home">
+            <div class="home__background">
+                <img src="images/background-main.jpg" alt="Background" class="background_image">
+            </div>
+            <div class="home__container">
+                <div class="container__dados">
+                    <h1 class="dados__title">A parceira do Agricultor</h1>
+                    <p class="dados__text">Desde 1994, fortalecemos os produtores rurais ao oferecer soluções sustentáveis e eficientes, contribuindo para o desenvolvimento da agricultura</p>
+                </div>
+                <div class="container__button">
+                    <a href="" class="button_catalog">Quem somos</a>
+                </div>
+            </div>
+        </section>
+        <section class="main__produtos">
+            <h1 class="produtos__title">Produtos</h1>
+            <div class="produtos__slider">
+                <div class="slider__box">
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__banner">
+            <img src="images/banner-amagron.png" alt="Banner Amagron" class="banner_amagron">
+        </section>
+        <section class="main__about">
+            <h1 class="about__title">Sobre Nós</h1>
+            <div class="about__container">
+                <div class="container__info">
+                    <h2 class="info__title"></h2>
+                    <p class="info__desc"></p>
+                    <span class="info__dev"></span>
+                </div>
+                <div class="container__img">
+                    <img src="images/assinaturas2.jpg" alt="Equipe" class="about_img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__web">
+            <div class="web__dados">
+                <img src="images/amagron-logo.png" alt="Amagron Logo" class="footer_logo">
+                <h2 class="web__uni">Universidade Estadual do Tocantins</h1>
+            </div>
+            <div class="web__menu">
+                <a href=""><img src="" alt="Linkedin"></a>
+                <a href=""><img src="" alt="Github"></a>
+                <a href=""><img src="" alt="E-mail"></a>
             </div>
         </div>
-
+        <div class="footer__emp">
+            <h2 class="emp__title">Empresa</h1>
+            <ul class="emp__list">
+                <li></li>
+            </ul>
+        </div>
+        <div class="footer__contats">
+            <h2 class="contats__title">Contato</h1>
+                <ul class="contats__list">
+                    <li></li>
+                </ul>
+        </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
