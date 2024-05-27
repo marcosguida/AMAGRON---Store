@@ -10,13 +10,13 @@
 <body>
     <header class="header">
         <nav class="header__nav">
-            <a href="index.html" class="nav__logo">
-                <img src="images/amagron-logo.png" alt="Logo Amagron" class="logo_img">
-            </a>
+            <div class="nav__logo">
+                <img src="images/logo-branca.png" alt="Logo Amagron" class="logo_img">
+            </div>
             <div class="nav__menu">
                 <ul class="menu">
                     <li><a href="" class="menu__item">Assinaturas</a></li>
-                    <li><a href="" class="menu__item">Produtos</a></li>
+                    <li><a href="#produtos" class="menu__item">Produtos</a></li>
                     <li><a href="" class="menu__item">Contatos</a></li>
                     <li><a href="" class="menu__item">Notícias</a></li>
                 </ul>
@@ -30,7 +30,9 @@
     <main class="main">
         <section class="main__home">
             <div class="home__background">
-                <img src="images/background-main.jpg" alt="Background" class="background_image">
+                <video alt="Background" class="background_image" autoplay loop>
+                    <source src="images/background-fundo.mp4" type="video/mp4">
+                </video>
             </div>
             <div class="home__container">
                 <div class="container__dados">
@@ -38,11 +40,12 @@
                     <p class="dados__text">Transformamos a agricultura com práticas inovadoras e sustentáveis, fortalecendo os produtores rurais e promovendo um futuro mais verde</p>
                 </div>
                 <div class="container__button">
-                    <p class="button_catalog">Quem somos</p>
+                    <a href="#sobre" class="button_catalog">Quem somos</a>
                 </div>
             </div>
+            <div class="home--shadow"></div>
         </section>
-        <section class="main__produtos">
+        <section class="main__produtos" id="produtos">
             <h1 class="produtos__title">Produtos</h1>
             <div class="produtos__slider">
                 <div class="slider__box">
@@ -134,18 +137,31 @@
             </div>
         </section>
         <section class="main__banner">
-            <img src="images/banner-amagron.png" alt="Banner Amagron" class="banner_amagron">
+            <video alt="Banner Amagron" class="banner_amagron" autoplay loop>
+                <source src="images/video-banner.mp4">
+            </video>
         </section>
-        <section class="main__about">
+        <section class="main__about" id="sobre">
             <h1 class="about__title">Sobre Nós</h1>
             <div class="about__container">
                 <div class="container__info">
-                    <h2 class="info__title"></h2>
-                    <p class="info__desc"></p>
-                    <span class="info__dev"></span>
+                    <h2>AMAGRON Developers</h2>
+                    <p>Nossa equipe de desenvolvedores é composta por estudantes do curso de Sistemas de Informação da Universidade Estadual do Tocantins (UNITINS). O site foi desenvolvido como parte de um projeto para a disciplina de Front-End, onde tivemos a oportunidade de aplicar e expandir nossos conhecimentos em desenvolvimento web. Aqui está uma descrição detalhada dos membros da equipe:</p>
+                    <span>
+                        <ul>
+                            <li>Arthur Henrique</li>
+                            <li>Bruno Lustoza</li>
+                            <li>Bruno Sales</li>
+                            <li>Heitor Fiuza</li>
+                            <li>Lauro Leão</li>
+                            <li>Marcos Ribeiro</li>
+                        </ul>
+                    </span>
                 </div>
-                <div class="container__img">
-                    <img src="images/assinaturas2.jpg" alt="Equipe" class="about_img">
+                <div class="container__slider">
+                    <picture class="container__img">
+                        <img src="images/assinaturas2.jpg" alt="Equipe" class="about_img">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -153,7 +169,7 @@
     <footer class="footer">
         <div class="footer__web">
             <div class="web__dados">
-                <img src="images/amagron-logo.png" alt="Amagron Logo" class="footer_logo">
+                <img src="" alt="Amagron Logo" class="footer_logo">
                 <h2 class="web__uni">Universidade Estadual do Tocantins</h1>
             </div>
             <div class="web__menu">
@@ -170,9 +186,9 @@
         </div>
         <div class="footer__contats">
             <h2 class="contats__title">Contato</h1>
-                <ul class="contats__list">
-                    <li></li>
-                </ul>
+            <ul class="contats__list">
+                <li></li>
+            </ul>
         </div>
     </footer>
     <script src="js/main.js"></script>
