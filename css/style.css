@@ -8,8 +8,8 @@
     --dark-green-color: #3C503D;
     --green-color: #477A4A;
 
-    --body-font: "Montserrat Alternates", sans-serif;
-    --body-font2: "Montserrat", sans-serif;
+    --body-font: "Candara", sans-serif;
+    --body-font2: "Arial", sans-serif;
     --title-font-size: 2.5rem;
     --medium-font-size: 1.5rem;
     --normal-font-size: 0.938rem;
@@ -23,7 +23,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -311,4 +310,3 @@ a {
 .box__item:hover .prod__img > .prod-img {
     color: rgb(110, 252, 205);
 }
-
