@@ -1,11 +1,19 @@
 CREATE DATABASE IF NOT EXISTS amagron_db;
 USE amagron_db;
+
 CREATE TABLE produtos(
 id INT AUTO_INCREMENT PRIMARY KEY, 
 nome VARCHAR(300) NOT NULL,        
 preco DECIMAL(20, 2) NOT NULL,     
 imagem TEXT NOT NULL,             
 descricao TEXT 
+)ENGINE = InnoDB;
+
+CREATE TABLE usuario(
+id_user INT AUTO_INCREMENT PRIMARY KEY, 
+email VARCHAR(300) NOT NULL,        
+nome VARCHAR(200) NOT NULL,     
+senha TEXT NOT NULL             
 )ENGINE = InnoDB;
 
 INSERT INTO produtos (nome, preco, imagem, descricao) VALUES
