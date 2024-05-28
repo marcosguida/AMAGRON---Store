@@ -25,8 +25,8 @@
                 </ul>
             </div>
             <div class="nav__buttons">
-                <a href="pages/login.html" class="button_login">Login</a>
-                <a href="pages/signIn.html" class="button_singIn">Cadastrar</a>
+                <a href="pages/signIn.php" class="button_login">Login</a>
+                <a href="pages/signup.php" class="button_singIn">Cadastrar</a>
             </div>
         </nav>
     </header>
