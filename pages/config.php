@@ -1,7 +1,5 @@
-<?php  
-    if (session_status() == PHP_SESSION_NONE) {
-        session_start();
-    }
+<?php
+    session_start();
 
     $conexao=mysqli_connect('localhost', 'root', '', 'amagron_db');
 

@@ -1,6 +1,3 @@
-<?php
-    include('./pages/config.php');
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,8 +22,8 @@
                 </ul>
             </div>
             <div class="nav__buttons">
-                <a href="pages/login.html" class="button_login">Login</a>
-                <a href="pages/signIn.html" class="button_singIn">Cadastrar</a>
+                <a href="pages/signIn.html" class="button_login">Login</a>
+                <a href="pages/signup.html" class="button_singIn">Cadastrar</a>
             </div>
         </nav>
     </header>
@@ -52,28 +49,90 @@
             <h1 class="produtos__title">Produtos</h1>
             <div class="produtos__slider">
                 <div class="slider__box">
-                    <?php
-                    $sql_generico="select * from produtos order by id";
-                    $consulta_generico=mysqli_query($conexao, $sql_generico);
-                    while($linha=mysqli_fetch_array($consulta_generico)){
-                        if ((!empty($linha))){
-                            echo'<div class="box__item">';
-                                echo'<div class="item__image">';
-                                    echo'<img src="'.$linha['imagem'].'" alt="Produto Imagem" width="1024px" height="683px">';
-                                echo'</div>';
-                                echo'<div class="item__info">';
-                                    echo'<div class="prod__img">';
-                                        echo'<img src="./images/caixa.png" alt="" class="prod-img">';
-                                    echo'</div>';
-                                    echo'<h3 class="info__title">'.$linha['nome'].'</h3>';
-                                    echo'<span class="info__value">'.$linha['preco'].'</span>';
-                                    echo'<span class="info__desc">'.$linha['descricao'].'</span>';
-                                echo'</div>';
-                                echo'<div class="backdrop"></div>';
-                            echo'</div>';
-                        }
-                    }
-                    ?>
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <div class="prod__img">
+                                <img src="./images/caixa.png" alt="" class="prod-img">
+                            </div>
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <div class="prod__img">
+                                <img src="./images/caixa.png" alt="" class="prod-img">
+                            </div>
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <div class="prod__img">
+                                <img src="./images/caixa.png" alt="" class="prod-img">
+                            </div>
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <div class="prod__img">
+                                <img src="./images/caixa.png" alt="" class="prod-img">
+                            </div>
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <div class="prod__img">
+                                <img src="./images/caixa.png" alt="" class="prod-img">
+                            </div>
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
+                    <div class="box__item">
+                        <div class="item__image">
+                            <img src="images/assinaturas2.jpg" alt="Produto Imagem">
+                        </div>
+                        <div class="item__info">
+                            <div class="prod__img">
+                                <img src="./images/caixa.png" alt="" class="prod-img">
+                            </div>
+                            <h3 class="info__title">Produto</h3>
+                            <span class="info__value">$$$$$</span>
+                            <span class="info__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                        </div>
+                        <div class="backdrop"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -107,17 +166,17 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer>
         <div class="footer_box">
             <div class="footer_web">
                 <div class="footer_section">
                     <h4 class="footer_section_title">DEVELOPERS</h4>
                     <ul>
-                        <li><a href="#"> Arthur Henrique </a></li>
-                        <li><a href="#"> Bruno Lustosa </a></li>
-                        <li><a href="#"> Marcos Ribeiro </a></li>
+                        <li><a href="https://www.linkedin.com/in/arthur-henrique-pestana-schneider-46479626b" target="_blank"> Arthur Henrique </a></li>
+                        <li><a href="https://www.linkedin.com/in/bruno-lustoza-" target="_blank"> Bruno Lustosa </a></li>
+                        <li><a href="https://www.linkedin.com/in/marcos-ribeiro-guida" target="_blank"> Marcos Ribeiro </a></li>
                         <li><a href="#"> Lauro Leão </a></li>
-                        <li><a href="#"> Heitor Fiuza </a></li>
+                        <li><a href="https://www.linkedin.com/in/heitor-fiuza-oliveira-a997bb281" target="_blank"> Heitor Fiuza </a></li>
                         <li><a href="#"> Bruno Sales </a></li>
                     </ul>
                 </div>
@@ -131,7 +190,7 @@
                 <div class="footer_section">
                     <h4 class="footer_section_title">CONTATO</h4>
                     <ul>
-                        <li ><img src="/images/loc.png" class="icon_img"> <a href="">CEP 77020-122, Palmas-TO </a> </li>
+                        <li ><img src="/images/loc.png" class="icon_img"> <a>CEP 77020-122, Palmas-TO </a> </li>
                         <li><img src="/images/telefone.png" class="icon_img"><a href="tel:6339014000">(63) 3901-4000</a></li>
                         <li><img src="/images/email.png" class="icon_img"><a href="mailto:si.palmas@unitins.br">si.palmas@unitins.br</a></li>
                         <br>
