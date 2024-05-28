@@ -22,7 +22,7 @@ Teacher / lecturer: Tamirys Virgulino
 ## ⚒️ Technologies
 
 ### Front-End
-| Ícon                                                                                                         | Language            | Documentation                            |
+| Icon                                                                                                         | Language            | Documentation                            |
 |---------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------------------------|
 | <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="27"/>  | HTML 5                 | [HTML Documentation](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element)      |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1280px-CSS3_logo_and_wordmark.svg.png" width="20"/> | CSS                   | [CSS  Documentation](https://developer.mozilla.org/pt-BR/docs/Web/CSS)        |
