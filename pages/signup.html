@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-in</title>
-    <link rel="stylesheet" href="signin.css">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <div class="background">
         <div class="container">
             <div class="left-container">
-                <div class="login-box">
-                    <div class="login-info">
-                        <h1 class="login-title">LOGIN</h1>
-                        <p class="">Nos conte quem é você</p>
+                
+            </div>
+
+            <div class="right-container">
+                <div class="cadastro-box">
+                    <div class="cadastro-info">
+                        <h1 class="cadastro-title">Cadastro</h1>
+                        <p class="">Faça seu cadastro para sproveitar o melhor do nosso site</p>
                     </div>
                     <div class="login-cadastro">
                         <form action="index.html" method="post">
+
+                            <div class="textfield">
+                                <input required type="text" name="usuario" placeholder="">
+                                <label for="usuario">Usuário</label>
+                            </div>
 
                             <div class="textfield">
                                 <input required type="email" name="email" placeholder="">
@@ -31,17 +40,13 @@
                             <div class="textfield3">
                                 <input type="submit" value="Cadastrar">
                                 <div>
-                                    Não tem conta?
-                                    <a href="signup.html">Cadastre-se</a>
+                                    Já tem conta?
+                                    <a href="signin.html">Entrar</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
-            </div>
-
-            <div class="right-container">
-            
             </div>
         </div>
     </div>

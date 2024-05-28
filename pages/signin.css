@@ -111,7 +111,13 @@ body {
     color: rgb(8, 122, 8);
 }
 
-.textfield input[type="submit"]{
+.textfield3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textfield3 input[type="submit"]{
     border: 2px solid rgb(0, 176, 0);
     border-radius: 20px;
     font-family: var(--body-font);
@@ -122,7 +128,7 @@ body {
     background: none;
 }
 
-.textfield input[type="submit"]:hover{
+.textfield3 input[type="submit"]:hover{
     border: none;
     background:linear-gradient(rgb(3, 58, 3), rgb(0, 176, 0));
 }
@@ -130,6 +136,6 @@ body {
 .right-container{
     width: 40vw;
     height: 100vh;
-    background: url(planta.jpg);
+    background: url(../images/backgroud-login.jpg);
     background-size: cover;
 }
