@@ -29,6 +29,8 @@ Teacher / lecturer: Tamirys Virgulino
 | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="20"/>          | Tailwind CSS          | [Tailwind CSS Documentation](https://v2.tailwindcss.com/docs) |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="20"/>                 | JavaScript                 | [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)    |
 | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="20"/>                  | React                 | [React Documentation](https://pt-br.react.dev/)    |
+| <img src="https://skillicons.dev/icons?i=php" width="20"/>                  | PHP  8.2               | [PHP Documentation](https://www.php.net/manual/en/)    |
+
 
 
 ## Images
