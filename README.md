@@ -15,10 +15,6 @@ Teacher / lecturer: Tamirys Virgulino
 
 * User authentication: Secure login and password system for user identification and access control.
 
-* CRUD operations (Create, Read, Update, Delete): Comprehensive product management capabilities, allowing users to add, view, modify and remove products and their information.
-
-* API integration: Seamless integration with external APIs to obtain and display relevant agricultural data such as market prices.
-
 * Responsive design: ensure the best user experience on various devices, including desktops, laptops, tablets and smartphones.
 
 * Accessibility: Implement accessibility features to cater for users with different abilities, ensuring inclusive browsing. 
