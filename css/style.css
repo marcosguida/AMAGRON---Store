@@ -262,7 +262,7 @@ a {
 .main__produtos {
     width: 94vw;
     position: relative;
-    margin: 10px 4% 40px 4%;
+    margin: 3% 4% 3% 4%;
 }
 
 .main__produtos h1 {
@@ -446,18 +446,10 @@ a {
     margin-left: 50px;
 }
 
-.container__info h1 {
-    
-}
-
 .container__info p {
     color: var(--white-color);
     width: 75%;
     text-align: justify;
-}
-
-.container__info span {
-
 }
 
 .container__slider {
