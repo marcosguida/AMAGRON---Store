@@ -138,6 +138,6 @@ body {
 .right-container{
     width: 40vw;
     height: 100vh;
-    background: url(../images/backgroud-login.jpg);
+    background: url(../../images/backgroud-login.jpg);
     background-size: cover;
 }
