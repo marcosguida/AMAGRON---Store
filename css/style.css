@@ -299,7 +299,7 @@ a {
 }
 
 .box__item:hover {
-    flex-grow: 50;
+    flex-grow: 100;
 }
 
 .box__item > .item__image {
