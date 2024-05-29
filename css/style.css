@@ -283,7 +283,6 @@ a {
     display: flex;
     gap: 10px;
 }
-
 .box__item {
     min-width: 70px;
     height: 100%;
@@ -297,11 +296,9 @@ a {
     transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
     --transition-timing: 0.35s;
 }
-
 .box__item:hover {
     flex-grow: 50;
 }
-
 .box__item > .item__image {
     position: absolute;
     inset: 0;
