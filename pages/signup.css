@@ -112,6 +112,12 @@ body {
     color: rgb(8, 122, 8);
 }
 
+.textfield ion-icon{
+    position: absolute;
+    color: rgb(8, 122, 8);
+    right: 8px;
+}
+
 .textfield3{
     display: flex;
     align-items: center;
