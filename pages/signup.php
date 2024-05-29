@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up</title>
-    <link rel="stylesheet" href="signup.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
     <div class="background">
@@ -20,23 +20,20 @@
                         <p class="">Faça seu cadastro para aproveitar o melhor do nosso site</p>
                     </div>
                     <div class="login-cadastro">
-                        <form action=".//index.html" method="post">
+                        <form action="func-cadastro.php" method="post">
 
                             <div class="textfield">
-                                <ion-icon name="person-outline"></ion-icon>
-                                <input required type="text" name="usuario" placeholder="">
+                                <input required type="text" id="usuario" name="usuario" placeholder="">
                                 <label for="usuario">Usuário</label>
                             </div>
 
                             <div class="textfield">
-                                <ion-icon name="mail-outline"></ion-icon>
-                                <input required type="email" name="email" placeholder="">
+                                <input required type="email" id="email" name="email" placeholder="">
                                 <label for="email">Email</label>
                             </div>
 
                             <div class="textfield">
-                                <ion-icon name="lock-closed-outline"></ion-icon>
-                                <input required type="password" name="senha" placeholder="">
+                                <input required type="password" id="senha" name="senha" placeholder="">
                                 <label for="senha">Senha</label>
                             </div>
 
@@ -44,7 +41,7 @@
                                 <input type="submit" value="Cadastrar">
                                 <div>
                                     Já tem conta?
-                                    <a href="signin.html">Entrar</a>
+                                    <a href="signin.php">Entrar</a>
                                 </div>
                             </div>
                         </form>

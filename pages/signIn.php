@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-in</title>
-    <link rel="stylesheet" href="signin.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/signin.css">
 </head>
 <body>
     <div class="background">
@@ -16,17 +16,15 @@
                         <p class="">Nos conte quem é você</p>
                     </div>
                     <div class="login-cadastro">
-                        <form action="../index.html" method="post">
+                        <form action="func-login.php" method="post">
 
                             <div class="textfield">
-                                <ion-icon name="mail-outline"></ion-icon>
-                                <input required type="email" name="email" placeholder="">
+                                <input required type="email" id="email" name="email" placeholder="">
                                 <label for="email">Email</label>
                             </div>
 
                             <div class="textfield">
-                                <ion-icon name="lock-closed-outline"></ion-icon>
-                                <input required type="password" name="senha" placeholder="">
+                                <input required type="password" id="senha" name="senha" placeholder="">
                                 <label for="senha">Senha</label>
                             </div>
 
@@ -34,7 +32,7 @@
                                 <input type="submit" value="Entrar">
                                 <div>
                                     Não tem conta?
-                                    <a href="signup.html">Cadastre-se</a>
+                                    <a href="signup.php">Cadastre-se</a>
                                 </div>
                             </div>
                         </form>
