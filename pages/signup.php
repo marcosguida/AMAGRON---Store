@@ -23,18 +23,21 @@
                         <form action="func-cadastro.php" method="post">
 
                             <div class="textfield">
-                                <input required type="text" id="usuario" name="usuario" placeholder="">
+                                <input required type="text" id="usuario" name="usuario" placeholder="" autocomplete="off">
                                 <label for="usuario">Usuário</label>
+                                <ion-icon name="person-outline"></ion-icon>
                             </div>
 
                             <div class="textfield">
-                                <input required type="email" id="email" name="email" placeholder="">
+                                <input required type="email" id="email" name="email" placeholder="" autocomplete="off">
                                 <label for="email">Email</label>
+                                <ion-icon name="mail-outline"></ion-icon>
                             </div>
 
                             <div class="textfield">
                                 <input required type="password" id="senha" name="senha" placeholder="">
                                 <label for="senha">Senha</label>
+                                <ion-icon name="lock-closed-outline" onclick="ViewPass()"></ion-icon>
                             </div>
 
                             <div class="textfield3">
@@ -51,6 +54,7 @@
         </div>
     </div>
 
+    <script src="../js/signup.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
