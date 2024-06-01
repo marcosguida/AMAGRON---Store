@@ -65,9 +65,10 @@
                                     echo'<div class="prod__img">';
                                         echo'<img src="./images/caixa.png" alt="" class="prod-img">';
                                     echo'</div>';
-                                    echo'<h3 class="info__title">'.$linha['nome'].'</h3>';
-                                    echo'<span class="info__value">'.$linha['preco'].'</span>';
-                                    echo'<span class="info__desc">'.$linha['descricao'].'</span>';
+                                    echo'<div class="prod__dados">';
+                                        echo'<h3 class="info__title">'.$linha['nome'].'</h3>';
+                                        echo'<span class="info__value">R$'.$linha['preco'].'</span>';
+                                    echo'</div>';
                                 echo'</div>';
                                 echo'<div class="backdrop"></div>';
                             echo'</div>';
@@ -124,26 +125,26 @@
                 <div class="footer_section">
                     <h4 class="footer_section_title" id="empresa">EMPRESA</h4>
                     <ul>
-                        <li><a href=""> Nossa história </a></li>
+                        <li><a href="#"> Nossa história </a></li>
                         <li><a href="https://www.apache.org/licenses/LICENSE-2.0.txt" target="_blank"> Política de privacidade </a></li>
                     </ul>
                 </div>
                 <div class="footer_section">
                     <h4 class="footer_section_title">CONTATO</h4>
                     <ul>
-                        <li ><img src="/images/loc.png" class="icon_img"> <a href="">CEP 77020-122, Palmas-TO </a> </li>
-                        <li><img src="/images/telefone.png" class="icon_img"><a href="tel:6339014000">(63) 3901-4000</a></li>
-                        <li><img src="/images/email.png" class="icon_img"><a href="mailto:si.palmas@unitins.br">si.palmas@unitins.br</a></li>
+                        <li><img src="./images/loc.png" class="icon_img"> <a href="">CEP 77020-122, Palmas-TO </a> </li>
+                        <li><img src="./images/telefone.png" class="icon_img"><a href="tel:6339014000">(63) 3901-4000</a></li>
+                        <li><img src="./images/email.png" class="icon_img"><a href="mailto:si.palmas@unitins.br">si.palmas@unitins.br</a></li>
                         <br>
                         <span><a rel="noopener" href="https://g.page/unitinsoficial?share" target="_blank" class="text_loc">Ver no Mapa</a> <br />
                         </ul>
                 </div>
                 <div class="footer_section">
-                    <img class="footer_logo " src="/images/logo-branca.png">
+                    <img class="footer_logo " src="./images/logo-branca.png">
                     <div class="footer_midias">
-                        <a href="https://github.com/marcosguida/AMAGRON-Store" target="_blank"> <img class="img_github" src="/images/github.png"> <i class="GitHub"></i> </a>
-                        <a href=""> <img class="img_insta" src="/images/instagram.png"> <i class="Instagram"></i> </a>
-                        <a href=""> <img class="img_linkedln" src="/images/linkedin.png"> <i class="Linkedin"></i> </a>
+                        <a href="https://github.com/marcosguida/AMAGRON-Store" target="_blank"> <img class="img_github" src="./images/github.png"> <i class="GitHub"></i> </a>
+                        <a href=""> <img class="img_insta" src="./images/instagram.png"> <i class="Instagram"></i> </a>
+                        <a href=""> <img class="img_linkedln" src="./images/linkedin.png"> <i class="Linkedin"></i> </a>
                     </div>
                 </div>
             </div>
