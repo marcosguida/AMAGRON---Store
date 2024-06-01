@@ -2,11 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --body-font: "Montserrat Alternates", sans-serif;
-    --normal-font-size: 0.938rem;
-    --font-regular: 400;
-    --white-color: #fff;
+    --white-color: #fefefe;
+    --black-color: #0f0f0f;
     --darkest-green-color: #2D332E;
+    --darkest-green-shadow: #2d332e52;
+    --dark-green-color: #3C503D;
+    --green-color: #477A4A;
+
+    --body-font: "Montserrat", sans-serif;
+    --title-font-size: 2.5rem;
+    --medium-font-size: 1.5rem;
+    --normal-font-size: 0.938rem;
+
+    --font-regular: 400;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    --transition-timing: 0.35s;
 }
 
 *{
@@ -24,13 +36,31 @@ body {
     width: 100%;
 }
 
+.header__singIn {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.header__singUp {
+    position: absolute;
+    top: 50px;
+    left: 45%;
+}
+
+header img {
+    position: relative;
+    width: 30px;
+}
+
 .background{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    background: var(--darkest-green-color)
+    background: var(--darkest-green-color);
+    position: relative;
 }
 
 .container{
@@ -41,9 +71,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.right-container{
+.left-container, .right-container{
     width: 60vw;
     height: 100vh;
     display: flex;
@@ -51,7 +82,8 @@ body {
     align-items: center;
 }
 
-.cadastro-box{
+
+.login-box, .cadastro-box{
     width: 80%;
     height: 70%;
     display: flex;
@@ -59,12 +91,12 @@ body {
     justify-content: center;
 }
 
-.cadastro-info{
+.login-info, .cadastro-info{
     padding: 8px 0px;
     margin-bottom: 10px;
 }
 
-.cadastro-info h1{
+.login-info h1, .cadastro-info h1{
     padding: 8px 0px;
     margin-bottom: 10px;
     font-size: 35px;
@@ -106,7 +138,7 @@ body {
 }
 
 .textfield input:focus + label,
-.textfield input:valid + label{
+.textfield input:valid + label, .textfield input:not(:placeholder-shown) + label{ 
     font-size: 13px;
     margin-top: 0px;
     color: rgb(8, 122, 8);
@@ -123,7 +155,8 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.textfield3 input[type="submit"]{
+
+.submit_button {
     border: 2px solid rgb(0, 176, 0);
     border-radius: 20px;
     font-family: var(--body-font);
@@ -133,16 +166,35 @@ body {
     height: 50px;
     background: none;
     cursor: pointer;
+    transition: var(--transition-timing) ease;
 }
 
-.textfield3 input[type="submit"]:hover{
+.submit_button:hover{
     border: none;
-    background:linear-gradient(rgb(3, 58, 3), rgb(0, 176, 0));
+    background-color: rgba(0, 176, 0, 0.61);
 }
 
-.left-container{
+.background_image{
     width: 40vw;
     height: 100vh;
     background: url(../../images/backgroud-login.jpg);
+    filter: brightness(0.6);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background_image--left{
+    width: 40vw;
+    height: 100vh;
+    background: url(../../images/backgroud-login.jpg);
+    filter: brightness(0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textfield3 a {
+    text-decoration: none;
+    color: rgba(0, 176, 0, 0.61);
 }
