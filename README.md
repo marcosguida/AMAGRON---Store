@@ -29,7 +29,27 @@ Teacher / lecturer: Tamirys Virgulino
 | <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="20"/>                 | JavaScript                 | [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)    |
 | <img src="https://skillicons.dev/icons?i=php" width="20"/>                  | PHP  8.2               | [PHP Documentation](https://www.php.net/manual/en/)    |
 
+## Como configurar 
 
+### Linux 
+<img height="30" src="https://github.com/marwin1991/profile-technology-icons/assets/76662862/2481dc48-be6b-4ebb-9e8c-3b957efe69fa"> 
+
+1. Clonar projeto:
+```
+git clone https://github.com/marcosguida/AMAGRON-Store.git
+```
+2. Navegue até o diretório onde o projeto foi clonado:
+```
+cd path/AMAGRON-Store
+```
+
+2. Mova a pasta do projeto para ``/var/www/html/``:
+```
+sudo mv AMAGRON-Store /var/www/html/
+```
+
+### Windows
+<img height="30" src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png">
 
 ## Images
 
