@@ -51,6 +51,17 @@ sudo mv AMAGRON-Store /var/www/html/
 ### Windows
 <img height="30" src="https://user-images.githubusercontent.com/25181517/186884150-05e9ff6d-340e-4802-9533-2c3f02363ee3.png">
 
+1. Navegue até o diretório onde o projeto foi clonado:
+
+```
+cd \caminho\para\o\projeto
+```
+2. Mova a pasta do projeto para o diretório de publicação da web (por exemplo, XAMPP):
+
+```
+move AMAGRON-Store C:\xampp\htdocs\
+```
+
 ## Images
 
 ## Team
