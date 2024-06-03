@@ -54,6 +54,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 50px;
     width: 100%;
     z-index: 1000;
 }
@@ -89,15 +90,15 @@ a {
     transition: var(--transition-timing) ease;
 }
 
-.nav__hamburguer:active span:nth-child(1) {
+.nav__hamburguer--active span:nth-child(1) {
     transform: rotate(45deg) translate(6px);
 }
 
-.nav__hamburguer:active span:nth-child(2) {
+.nav__hamburguer--active span:nth-child(2) {
     display: none;
 }
 
-.nav__hamburguer:active span:nth-child(3) {
+.nav__hamburguer--active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px);
 }
 

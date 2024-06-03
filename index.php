@@ -24,7 +24,6 @@
             <div class="navigation__bar">
                 <div class="nav__menu">
                     <ul class="menu">
-                        <li><a href="" class="menu__item">Assinaturas</a></li>
                         <li><a href="#produtos" class="menu__item">Produtos</a></li>
                         <li><a href="#empresa" class="menu__item">Contato</a></li>
                         <li><a href="" class="menu__item">Notícias</a></li>
