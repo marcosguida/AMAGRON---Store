@@ -117,44 +117,42 @@
     <br> <br> <br>
     <footer class="footer">
         <div class="footer_box">
-            <div class="footer_web">
-                <div class="footer_section">
-                    <h4 class="footer_section_title">DEVELOPERS</h4>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/arthur-henrique-pestana-schneider-46479626b/" target="blank"> Arthur Henrique </a></li>
-                        <li><a href="https://www.linkedin.com/in/bruno-lustoza-/" target="blank" > Bruno Lustosa </a></li>
-                        <li><a href="https://www.linkedin.com/in/marcos-ribeiro-guida/"  target="blank" > Marcos Ribeiro </a></li>
-                        <li><a href="lauroleao@unitins.br" target="blank"> Lauro Leão </a></li>
-                        <li><a href="https://www.linkedin.com/in/heitor-fiuza-oliveira-a997bb281/" target="blank" > Heitor Fiuza </a></li>
-                        <li><a href="brunosales@unitins.br" target="blank"> Bruno Sales </a></li>
+            <div class="footer_section">
+                <h4 class="footer_section_title">DEVELOPERS</h4>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/arthur-henrique-pestana-schneider-46479626b/" target="blank"> Arthur Henrique </a></li>
+                    <li><a href="https://www.linkedin.com/in/bruno-lustoza-/" target="blank" > Bruno Lustosa </a></li>
+                    <li><a href="https://www.linkedin.com/in/marcos-ribeiro-guida/"  target="blank" > Marcos Ribeiro </a></li>
+                    <li><a href="lauroleao@unitins.br" target="blank"> Lauro Leão </a></li>
+                    <li><a href="https://www.linkedin.com/in/heitor-fiuza-oliveira-a997bb281/" target="blank" > Heitor Fiuza </a></li>
+                    <li><a href="brunosales@unitins.br" target="blank"> Bruno Sales </a></li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <h4 class="footer_section_title" id="empresa">EMPRESA</h4>
+                <ul>
+                    <li><a href="#"> Nossa história </a></li>
+                    <li><a href="https://www.apache.org/licenses/LICENSE-2.0.txt" target="_blank"> Política de privacidade </a></li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <h4 class="footer_section_title">CONTATO</h4>
+                <ul>
+                    <li><img src="./images/loc.png" class="icon_img"> <a href="">CEP 77020-122, Palmas-TO </a> </li>
+                    <li><img src="./images/telefone.png" class="icon_img"><a href="tel:6339014000">(63) 3901-4000</a></li>
+                    <li><img src="./images/email.png" class="icon_img"><a href="mailto:si.palmas@unitins.br">si.palmas@unitins.br</a></li>
+                    <br>
+                    <span><a rel="noopener" href="https://g.page/unitinsoficial?share" target="_blank" class="text_loc">Ver no Mapa</a> <br />
                     </ul>
+            </div>
+            <div class="footer_section">
+                <div>
+                    <img class="footer_logo " src="./images/logo-branca.png">
                 </div>
-                <div class="footer_section">
-                    <h4 class="footer_section_title" id="empresa">EMPRESA</h4>
-                    <ul>
-                        <li><a href="#"> Nossa história </a></li>
-                        <li><a href="https://www.apache.org/licenses/LICENSE-2.0.txt" target="_blank"> Política de privacidade </a></li>
-                    </ul>
-                </div>
-                <div class="footer_section">
-                    <h4 class="footer_section_title">CONTATO</h4>
-                    <ul>
-                        <li><img src="./images/loc.png" class="icon_img"> <a href="">CEP 77020-122, Palmas-TO </a> </li>
-                        <li><img src="./images/telefone.png" class="icon_img"><a href="tel:6339014000">(63) 3901-4000</a></li>
-                        <li><img src="./images/email.png" class="icon_img"><a href="mailto:si.palmas@unitins.br">si.palmas@unitins.br</a></li>
-                        <br>
-                        <span><a rel="noopener" href="https://g.page/unitinsoficial?share" target="_blank" class="text_loc">Ver no Mapa</a> <br />
-                        </ul>
-                </div>
-                <div class="footer_section">
-                    <div>
-                        <img class="footer_logo " src="./images/logo-branca.png">
-                    </div>
-                    <div class="footer_midias">
-                        <a href="https://github.com/marcosguida/AMAGRON-Store" target="_blank"> <img class="img_github" src="./images/github.png"> <i class="GitHub"></i> </a>
-                        <a href=""> <img class="img_insta" src="./images/instagram.png"> <i class="Instagram"></i> </a>
-                        <a href=""> <img class="img_linkedln" src="./images/linkedin.png"> <i class="Linkedin"></i> </a>
-                    </div>
+                <div class="footer_midias">
+                    <a href="https://github.com/marcosguida/AMAGRON-Store" target="_blank"> <img class="img_github" src="./images/github.png"> <i class="GitHub"></i> </a>
+                    <a href=""> <img class="img_insta" src="./images/instagram.png"> <i class="Instagram"></i> </a>
+                    <a href=""> <img class="img_linkedln" src="./images/linkedin.png"> <i class="Linkedin"></i> </a>
                 </div>
             </div>
         </div>
