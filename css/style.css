@@ -491,8 +491,84 @@ a {
     transition: opacity 0.25s ease-in-out;
 }
 
+
+.main__assinaturas {
+    padding: 2em 0;
+    background-color: 0f0f0f;
+}
+
+.assinaturas__title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.assinaturas__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.assinatura {
+    background-color: rgb(28, 31, 28);
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 1.5em;
+    text-align: center;
+    width: 300px;
+}
+
+.assinatura:hover{
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.assinatura h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+}
+
+.preco {
+    color: #faf7f7;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.assinatura ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+.assinatura li {
+    background-color: rgb(28, 31, 28);
+    border-bottom: 1px solid #ffffff;
+    padding: 0.5em;
+}
+
+.assinatura li:last-child {
+    border-bottom: none;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    color: rgb(34, 30, 30);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.75em 1.5em;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 footer {
-    background-color: #141312;
+    background-color: #181616;
     padding: 50px 0;
 }
 

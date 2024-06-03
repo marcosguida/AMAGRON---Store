@@ -3,7 +3,7 @@
         session_start();
     }
 
-    $conexao=mysqli_connect('localhost', 'root', '', 'amagron_db');
+    $conexao=mysqli_connect('localhost', 'root', 'admin', 'amagron_db');
 
     mysqli_query($conexao, "SET NAMES 'utf8'");
     mysqli_query($conexao, 'SET character_set_connection=utf8');

@@ -18,7 +18,7 @@
             </div>
             <div class="nav__menu">
                 <ul class="menu">
-                    <li><a href="" class="menu__item">Assinaturas</a></li>
+                    <li><a href="#assinaturas" class="menu__item">Assinaturas</a></li>
                     <li><a href="#produtos" class="menu__item">Produtos</a></li>
                     <li><a href="#empresa" class="menu__item">Contato</a></li>
                     <li><a href="" class="menu__item">Notícias</a></li>
@@ -107,19 +107,58 @@
                 </div>
             </div>
         </section>
+
+        <!-- Nova Seção de Assinaturas -->
+        <section class="main__assinaturas" id="assinaturas">
+            <h1 class="assinaturas__title">Planos de Assinatura</h1>
+            <div class="assinaturas__container">
+                <div class="assinatura">
+                    <h2>Plano Básico</h2>
+                    <p class="preco">R$ 599,99/mês</p>
+                    <ul>
+                        <li>Acesso a conteúdos básicos</li>
+                        <li>Suporte por email</li>
+                        <li>Desconto de até 30% em compras acima de 1.000,00</li>
+                    </ul>
+                    <br>
+                    <button>Assine Agora</button>
+                </div>
+                <div class="assinatura">
+                    <h2>Plano Padrão</h2>
+                    <p class="preco">R$ 1.199,99/mês</p>
+                    <ul>
+                        <li>Produtos com até 50% de desconto</li>
+                        <li>Frete Grátis</li>
+                        <li>Acumulo de pontos em compras acima de 1.000,00</li>
+                    </ul>
+                    <button>Assine Agora</button>
+                </div>
+                <div class="assinatura">
+                    <h2>Plano Premium</h2>
+                    <p class="preco">R$ 5.999,99/mês</p>
+                    <ul>
+                        <li>Acesso a relatórios do mercado do agronegócio </li>
+                        <li>Até 85% de desconto no pix</li>
+                        <li>Conteúdos e produtos exclusivos</li>
+                    </ul>
+                    <button>Assine Agora</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <br> <br> <br>
     <footer class="footer">
         <div class="footer_box">
             <div class="footer_web">
                 <div class="footer_section">
                     <h4 class="footer_section_title">DEVELOPERS</h4>
                     <ul>
-                        <li><a href="#"> Arthur Henrique </a></li>
-                        <li><a href="#"> Bruno Lustosa </a></li>
-                        <li><a href="#"> Marcos Ribeiro </a></li>
-                        <li><a href="#"> Lauro Leão </a></li>
-                        <li><a href="#"> Heitor Fiuza </a></li>
-                        <li><a href="#"> Bruno Sales </a></li>
+                        <li><a href="https://www.linkedin.com/in/arthur-henrique-pestana-schneider-46479626b/" target="blank"> Arthur Henrique </a></li>
+                        <li><a href="https://www.linkedin.com/in/bruno-lustoza-/" target="blank" > Bruno Lustosa </a></li>
+                        <li><a href="https://www.linkedin.com/in/marcos-ribeiro-guida/"  target="blank" > Marcos Ribeiro </a></li>
+                        <li><a href="lauroleao@unitins.br" target="blank"> Lauro Leão </a></li>
+                        <li><a href="https://www.linkedin.com/in/heitor-fiuza-oliveira-a997bb281/" target="blank" > Heitor Fiuza </a></li>
+                        <li><a href="brunosales@unitins.br" target="blank"> Bruno Sales </a></li>
                     </ul>
                 </div>
                 <div class="footer_section">
